@@ -4,6 +4,7 @@
     font-weight: 500;
     font-style: normal;
     scroll-behavior: smooth;
+    background-color: #C0CAEB;
 }
 
 
@@ -21,11 +22,10 @@ img {
     vertical-align: middle;
 }
 
-img .container { 
-    width: 130% !important;
-    vertical-align: middle;
-    margin: 0
+p {
+    background-color:#E6FF81 ;
 }
+
 
 #footer { 
     margin: 0;
