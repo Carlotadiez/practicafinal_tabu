@@ -4,6 +4,14 @@
     font-weight: 500;
     font-style: normal;
     scroll-behavior: smooth;
+    background-color: #C0CAEB;
+}
+
+@font-face {
+    font-family: 'Pomidor';
+    src: url('Pomidor.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 
@@ -12,8 +20,24 @@
     padding: 0 !important;
 }
 .col-md-4 {
-    margin: 0 !important;
+    margin:0; ;
     padding: 0 !important;
+    background-color: #E6FF81;
+    font-family: 'Pomidor';
+}
+
+.col-md-4 p {
+    margin-top: 3%;
+    font-family: 'Pomidor';
+    color: #E6FF81;
+    font-size: 50;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    line-height: 0.7em;
+    text-align: center;
+}
+.col-md-4 p:hover {
+    color: rgb(0, 0, 0);
 }
 
 img {
@@ -21,11 +45,10 @@ img {
     vertical-align: middle;
 }
 
-img .container { 
-    width: 130% !important;
-    vertical-align: middle;
-    margin: 0
+p {
+    background-color:#E6FF81 ;
 }
+
 
 #footer { 
     margin: 0;
