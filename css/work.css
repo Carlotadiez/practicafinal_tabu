@@ -6,6 +6,13 @@
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'Pomidor';
+    src: url('Pomidor.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
 
 .col-md-6 {
     margin: 0 !important;
