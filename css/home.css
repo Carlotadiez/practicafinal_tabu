@@ -26,6 +26,12 @@
     font-family: 'Pomidor';
 }
 
+@media (min-width: 992px) {
+    .col-md-4 {
+        max-width: 100%;
+    }
+}
+
 .col-md-4 p {
     margin-top: 3%;
     font-family: 'Pomidor';
@@ -57,9 +63,17 @@ p {
     text-align: center;
 }
 
+#footer .p { 
+    background-color: #E6FF81 ;
+}
+
 #footer .icons { 
     margin: 5;
     color:black;
     text-align: center;
+    background-color: #E6FF81 ;
+}
 
+#footer .svg { 
+    background-color: #E6FF81 ;
 }

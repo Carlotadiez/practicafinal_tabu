@@ -7,3 +7,50 @@
     background-color: #C0CAEB;
 }
 
+@font-face {
+    font-family: 'Pomidor';
+    src: url('Pomidor.otf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+.display-4 {
+    background-color:#E6FF81 ;
+}
+.lead {
+    background-color:#E6FF81 ;
+}
+.d-grid {
+    background-color:#E6FF81 ;
+}
+.btn-primary {
+    background-color:#E6B0FA !important;
+    outline-color: black !important;
+}
+.btn-outline-secondary {
+    background-color: #C0CAEB!important;
+    outline-color: black !important;
+}
+
+.col-lg-6 {
+    background-color:#E6FF81 ;
+}
+.px-4 {
+    background-color:#E6FF81 ;
+}
+.lead {
+    font-size: 4.25rem !important;
+    font-weight: 300;
+}
+
+.col-md-4 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
