@@ -13,3 +13,25 @@
     font-weight: normal;
 }
 
+#header {
+    width: 100%;
+}
+
+#workh {
+    width: 100%;
+}
+
+#quote {
+    background-color:#E6FF81 ;
+    display: flex;
+    height: 30em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote > p {
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+}
