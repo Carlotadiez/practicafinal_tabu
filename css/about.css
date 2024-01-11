@@ -124,6 +124,14 @@ p {
     width: 100%;
 }
 
+.zoom-img {
+    transition: transform 0.3s; /* Agrega una transición suave */
+}
+  
+.zoom-img:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% en hover */
+}
+
 @media (max-width: 768px) {
     .gallery-item {
       width: 100%;
