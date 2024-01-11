@@ -94,13 +94,11 @@
     padding: 1rem; 
 }
 
-/* The second card - WAFFEL */
 .card:nth-of-type(2) .card-img-top {
     background-color: #E6B0FA; 
     padding: 1rem; 
 }
 
-/* The third card - FRANKS */
 .card:nth-of-type(3) .card-img-top {
     background-color: #E6B0FA; 
     padding: 1rem; 
@@ -118,7 +116,7 @@
     text-transform: uppercase;
 }
 #web-design {
-    background-color: #E6E6FA; /* Color de fondo de la sección */
+    background-color: #E6E6FA; 
     padding: 2rem 0;
     text-align: center;
     margin: 0 !important;
@@ -196,8 +194,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-
-
 
 #footer .icons { 
     margin: 5;
