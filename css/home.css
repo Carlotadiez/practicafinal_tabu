@@ -65,6 +65,9 @@ p {
     padding: 5;
     background-color: #E6FF81 ;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container .p { 
     background-color: #E6FF81 !important;
@@ -85,6 +88,9 @@ p {
     -webkit-text-stroke-color: black;
     text-align: center;
     background-color: #E6FF81 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fa-brands {
     background-color: #E6FF81 ;

@@ -81,7 +81,10 @@ p {
 
 .lead {
     font-size: 2em !important;
-    font-weight: 300;
+    /* font-weight: 300; */
+    font-family: arboria, sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .col-md-4 {
