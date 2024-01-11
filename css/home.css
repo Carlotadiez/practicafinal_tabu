@@ -66,10 +66,16 @@ p {
     background-color: #E6FF81 ;
     text-align: center;
 }
+.container .p { 
+    background-color: #E6FF81 !important;
+    font-size: 4em !important;
+}
 
-#footer .p { 
+.container  { 
+    margin: 0!important;
+    padding: 5;
     background-color: #E6FF81 ;
-    font-size: 3em;
+    text-align: center;
 }
 
 #footer .icons { 
@@ -80,7 +86,6 @@ p {
     text-align: center;
     background-color: #E6FF81 ;
 }
-
 .fa-brands {
     background-color: #E6FF81 ;
 }
@@ -89,4 +94,9 @@ p {
     font-size: 2em;
     letter-spacing: 0.5em;
 }
-
+#footer .icons:hover {
+    color: rgb(0, 0, 0);
+}
+#footer .p { 
+    color: rgb(0, 0, 0);
+}
