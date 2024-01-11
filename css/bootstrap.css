@@ -1179,6 +1179,9 @@ progress {
   }
 }
 @media (min-width: 768px) {
+  .containerweb {
+    max-width: 720px;
+  }
   .col-md {
     flex: 1 0 0%;
   }
