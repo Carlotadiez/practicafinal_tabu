@@ -24,31 +24,29 @@
     padding: 0 !important;
     background-color: #E6FF81;
     font-family: 'Pomidor';
-}
-
-@media (min-width: 992px) {
-    .col-md-4 {
-        max-width: 100%;
-    }
+    flex: 0 0 auto !important;
+    width: 33.333% !important;
+    
 }
 
 .col-md-4 p {
     margin-top: 3%;
     font-family: 'Pomidor';
     color: #E6FF81;
-    font-size: 50;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     line-height: 0.7em;
     text-align: center;
+    font-size: 55;
 }
 .col-md-4 p:hover {
     color: rgb(0, 0, 0);
 }
 
-@media (min-width: 992px) {
-    .col-md-4 .p {
-        font-size: 92;
+@media (min-width: 320px) and (max-width: 1440px) {
+ .col-md-4 {
+    flex: 0 0 auto !important;
+    width: 100% !important;
     }
 }
 

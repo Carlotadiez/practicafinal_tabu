@@ -86,6 +86,12 @@ p {
     margin: 0 !important;
     padding: 0 !important;
 }
+.col-md-4 > p {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
 
 .row {
     display: flex;
