@@ -101,6 +101,7 @@ p {
     padding: 0 4px;
     background-color: #C0CAEB;
     margin-bottom: 0;
+    margin-right: 0 !important;
 }
 
 .gallery {
