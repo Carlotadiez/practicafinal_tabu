@@ -19,6 +19,8 @@ img {
     vertical-align: middle;
 }
 
+
+
 .display-4 {
     background-color:#E6FF81 ;
 }
@@ -86,6 +88,12 @@ p {
     margin: 0 !important;
     padding: 0 !important;
 }
+.col-md-4 > p {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
 
 .row {
     display: flex;
@@ -93,6 +101,7 @@ p {
     padding: 0 4px;
     background-color: #C0CAEB;
     margin-bottom: 0;
+    margin-right: 0 !important;
 }
 
 .gallery {
