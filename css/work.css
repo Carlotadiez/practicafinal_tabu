@@ -39,6 +39,7 @@
     text-align: center;
 }
 
+
 .display-4 {
     background-color:#E6FF81 ;
 }
@@ -57,6 +58,8 @@
     outline-color: black !important;
 }
 
+
+
 #packaging {
     background-color: #FFFEEA; 
     padding: 2rem 0;
@@ -64,11 +67,13 @@
 }
 
 #packaging h2 {
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Pomidor';
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
     color: #E6FF81; 
     margin-bottom: 1rem;
     text-transform: uppercase;
-    font-size: 3rem; /* Adjust the size as needed */
+    font-size: 3rem;
 }
 
 .card {
@@ -118,8 +123,10 @@
 }
 
 #web-design h2 {
-    font-family: 'Poppins', sans-serif;
-    color: #333; /* Color del texto del título */
+    font-family: 'Pomidor';
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: #E6FF81; 
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-size: 3rem;
