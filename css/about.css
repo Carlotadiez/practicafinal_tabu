@@ -265,6 +265,11 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+#footer .icons:hover {
+    color: rgb(0, 0, 0);
+}
+
 .fa-brands {
     background-color: #E6FF81 ;
 }
@@ -272,7 +277,4 @@ p {
     font-family: "Font Awesome 6 Brands";
     font-size: 2em;
     letter-spacing: 0.5em;
-}
-#footer .icons:hover {
-    color: rgb(0, 0, 0);
 }
