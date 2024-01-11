@@ -35,3 +35,21 @@
     display: flex;
     text-align: center;
 }
+
+.display-4 {
+    background-color:#E6FF81 ;
+}
+.lead {
+    background-color:#E6FF81 ;
+}
+.d-grid {
+    background-color:#E6FF81 ;
+}
+.btn-primary {
+    background-color:#E6B0FA !important;
+    outline-color: black !important;
+}
+.btn-outline-secondary {
+    background-color: #C0CAEB!important;
+    outline-color: black !important;
+}
