@@ -789,6 +789,7 @@ progress {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: none;
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
 .row > * {
@@ -10631,9 +10632,7 @@ textarea.form-control-lg {
   .me-lg-5 {
     margin-right: 3rem !important;
   }
-  .me-lg-auto {
-    margin-right: auto !important;
-  }
+ 
   .mb-lg-0 {
     margin-bottom: 0 !important;
   }
