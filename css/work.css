@@ -156,7 +156,8 @@
     flex-direction: column;
     align-items: center;
     background:white;
-    border: none;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
 }
 
 #webdesign .card-img-top {
@@ -407,4 +408,8 @@ p {
 
 .containerfooter {
     background-color: #E6FF81 !important;
+}
+
+.botonraro {
+    border-radius: 3px !important;
 }
