@@ -233,3 +233,46 @@ p {
     }
 }
 
+p {
+    background-color:#E6FF81 ;
+    color:#5277FB;
+}
+
+
+#footer { 
+    margin: 0;
+    padding: 5;
+    background-color: #E6FF81 ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container  { 
+    margin: 0!important;
+    padding: 5;
+    background-color: #E6FF81 ;
+    text-align: center;
+}
+
+#footer .icons { 
+    margin: 5;
+    color:#5277FB;
+    text-align: center;
+    background-color: #E6FF81 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-brands {
+    background-color: #E6FF81 ;
+}
+.fa-brands, .fab {
+    font-family: "Font Awesome 6 Brands";
+    font-size: 2em;
+    letter-spacing: 0.5em;
+}
+#footer .icons:hover {
+    color: rgb(0, 0, 0);
+}
