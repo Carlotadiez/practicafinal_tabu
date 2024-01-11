@@ -13,7 +13,9 @@
     font-style: normal;
     font-weight: normal;
 }
-
+.mb-3 {
+    margin-bottom: 0rem !important;
+}
 
 .col-md-6 {
     margin: 0 !important;
@@ -57,6 +59,7 @@ img {
 
 p {
     background-color:#E6FF81 ;
+    color:#5277FB;
 }
 
 
@@ -69,10 +72,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-.container .p { 
-    background-color: #E6FF81 !important;
-    font-size: 4em !important;
-}
 
 .container  { 
     margin: 0!important;
@@ -83,9 +82,7 @@ p {
 
 #footer .icons { 
     margin: 5;
-    color:#C0CAEB;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    color:#5277FB;
     text-align: center;
     background-color: #E6FF81 ;
     display: flex;
@@ -101,8 +98,5 @@ p {
     letter-spacing: 0.5em;
 }
 #footer .icons:hover {
-    color: rgb(0, 0, 0);
-}
-#footer .p { 
     color: rgb(0, 0, 0);
 }
